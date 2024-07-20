@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          .custom-radio {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .custom-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+
+  .custom-radio input:checked ~ .checkmark:after {
+    content: attr(value);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #fff;
+    font-size: 12px;
+  }
+
+  .custom-radio input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="d-flex align-items-center gap-2 flex-wrap" id="sizeButtons">
+        <div class="">
+            <input type="radio" name="size" value="37" onclick="selectSize(\'37\')">
+        </div>
+        <div class="">
+            <input type="radio" name="size" value="38" onclick="selectSize(\'38\')">
+        </div>
+        <div class="">
+            <input type="radio" name="size" value="39" onclick="selectSize(\'39\')">
+        </div>
+        <div class="">
+            <input type="radio" name="size" value="40" onclick="selectSize(\'40\')">
+        </div>
+        <div class="">
+            <input type="radio" name="size" value="41" onclick="selectSize(\'41\')">
+        </div>
+        <div class="">
+            <button type="input">hahah</button>
+        </div>
+    </div>
+<a href=""></a>
+     <form action="index.php?act=dathang" method="post"></form>
+<a href=""></a>
+     <input type="hiden" name  = "id_dathang">
+</body>
+</html>

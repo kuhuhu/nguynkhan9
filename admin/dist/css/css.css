@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* không cho sự ảnh hưởng của padding và margin và border vào trang   */
+    font-size: 0.8vw;
+    /* vw khi mình khéo to thu nhỏ thì font đổi theo còn sử dụng px,... thì không được  */
+    font-family: sans-serif;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.row{
+float: right;
+width: 80%;
+
+}
+.a{
+    text-decoration: none;
+}
+.mb{
+    margin-bottom: 10px;
+}
+
+.mr{
+    margin-right: 2%;
+}
+.demo{
+    background-color: aquamarine;
+    min-height: 100px;
+}
+.header{
+    background-color: antiquewhite;
+    border: 1px solid rgb(215, 161, 161);
+    font-size: 1vw;
+    color:rgb(127, 174, 255);
+    border-radius: 5px;
+}
+.footer{
+    background-color: antiquewhite;
+    border: 1px solid rgb(215, 161, 161);
+    font-size: 0.8vw;
+    color:rgb(127, 174, 255);
+    border-radius: 5px;
+    padding:20px;
+}
+.header h1{
+    text-align: center;
+    margin: 10px 20px;
+    font-size: 2vw;
+    
+}
+.menu{
+    background-color: rgb(16, 14, 14);
+    border-radius: 5px;
+    color: blue;
+}
+.menu ul {
+    display: flex;
+    
+    list-style: none;
+    
+}
+.menu ul li{
+    margin: 20px;
+}.menu ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+    color: white;
+    font-size: 12px;
+}
+.boxPhai{
+    float: left;
+    width: 24%;
+}
+.boxTrai{
+    float: left;
+    width: 74%;
+}
+
+.boxtitle{
+    color: black;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.649);
+    border-top-left-radius:5px ;
+    border-top-right-radius: 5px;
+    border-left:1px solid black ;
+    border-right:1px solid black ;
+    border-bottom:1px solid black;
+
+}
+.boxcontent{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top-left-radius:5px ;
+    border-top-right-radius: 5px;
+    min-height: 200px;
+    padding:20px;
+}
+.boxcontent2{
+    border-left: 1px solid rgb(13, 13, 13);
+    border-right: 1px solid rgb(14, 14, 14);
+    border-bottom: 1px solid rgb(7, 7, 7);
+    border-top-left-radius:5px ;
+    border-top-right-radius: 5px;
+   
+    
+    background-color: #eee;
+}
+.boxFooter{
+   
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.649);
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius: 5px;
+   border: 1px solid black;
+   border-bottom: 1px #ccc solid;
+   border-left: 1px #ccc solid;
+   border-right: 1px #ccc solid;
+}
+.banner{
+    /* min-height: 300px;
+    width: 100%; */
+    text-align: center;
+}
+/* .banner img{
+    height: 300px;
+} */
+.boxsp{
+    width: 31%;
+    float: left;
+    min-height: 200px;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.boxsp img{
+    height: 110px;
+}
+.boxsp p{
+    color: red;
+    padding:5px 0;
+}
+.boxsp button{
+color:rgb(242, 247, 247);
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+padding: 10px;
+cursor: pointer;
+margin: 10px 0px;
+border-bottom:2px solid rgb(151, 24, 210);
+border-top:2px solid rgb(48, 156, 192);
+background-color: black;
+}
+/* box tài khoản  */
+.formtaikhoan{
+    line-height: 150%;
+}
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="email"],
+.formtaikhoan input[type="password"],
+.fromcontent input[type="text"]{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.formtaikhoan input[type="checkbox"]{
+    border-radius: 5px;
+}
+
+.formtaikhoan input[type="submit"],
+.formtaikhoan input[type="reset"],
+.fromcontent input[type="submit"],
+.fromcontent input[type="reset"],
+.fromcontent input[type="button"]{
+   background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.formtaikhoan input[type="submit"]:hover,
+.formtaikhoan input[type="reset"]:hover,
+.fromcontent input[type="submit"]:hover,
+.fromcontent input[type="reset"]:hover,
+.fromcontent input[type="button"]:hover{
+    background-color: #ccc;
+}
+.formtaikhoan li a{
+    color: teal;
+    text-decoration: none;
+}
+.formtaikhoan li a:hover{
+    color: #590;
+    text-decoration: underline;
+}
+/* menu dọc */
+.menudoc ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.menudoc ul li{
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px #ccc solid;
+}
+.menudoc ul li a{
+    color: #666;
+    text-decoration: none;
+}
+.menudoc ul li:hover{
+    background-color: #ccc;
+}
+.searbox input[type="text"]{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.top10 img{
+    width: 20%;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.top10 a{
+    color: #666;
+    text-decoration: none;
+}
+.top10 a:hover{
+    color :#000;
+    text-decoration: underline;
+}
+.headeradmin{
+    background-color: #eee;
+    border: 1px solid #ccc;
+   padding: 10px 20px;
+    color:#666;
+    border-radius: 5px;
+    
+}
+.headeradmin h1{
+    font-size: 2vw;
+}
+.frmtitle{
+    background-color: #eee;
+    border: 1px solid #ccc;
+   padding: 10px 20px;
+    color:#666;
+    border-radius: 5px;
+}
+.fromcontent{
+    padding: 20px 0px;
+}
+.frmdsloai table{
+    width: 100%;
+    border: 1px solid #999;
+border-collapse: collapse;
+/* cho cột không còn cách */
+}
+.frmdsloai table th{
+padding:20px;
+background-color: #ccc;
+
+}
+/* .frmdsloai table th:nth-child(2){
+
+background-color: #ccc;
+}
+.frmdsloai table th:nth-child(3){
+   
+   background-color: #ccc;
+}
+.frmdsloai table th:nth-child(4){
+    
+    background-color: #ccc;
+}
+.frmdsloai table th:nth-child(5){
+    
+    background-color: #ccc;
+}
+.frmdsloai table th:nth-child(6){
+    
+    background-color: #ccc;
+} */
+.frmdsloai table td{
+    padding: 10px 20px;
+    border: 1px solid #999;
+}
+
+
+/* slider show */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+ 
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .ctsp {
+    text-align: center;
+}
+.thongbao{
+    color: red;
+}
+
+.binhluan2 table{
+    width: 100%;
+}
